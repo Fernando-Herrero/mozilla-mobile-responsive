@@ -214,7 +214,7 @@ p {
     flex: 1;
     gap: 20px;
 }
-.good-news-p {
+.align-left-p {
     text-align: left;
 }
 .good-news-email {
