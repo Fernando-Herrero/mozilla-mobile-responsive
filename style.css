@@ -31,7 +31,13 @@ a {
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 20px;
+    padding-top: 20px;
     border-bottom: 1px solid grey;
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: white;
 }
 .nav-img-li {
     display: flex;
@@ -160,25 +166,60 @@ p {
 .first-div {
     background: #e7dfff;
     border-radius: 8px;
+    margin-bottom: 30px;
 }
 .texto {
     color: #7542e5;
 }
 #image {
     text-align: left;
+    padding: 20px;
 }
 #written {
     text-align: center;
+    padding: 20px;
 }
 #button-div {
     text-align: right;
+    padding: 20px;
 }
 .first-section {
     background: #F0F0F4;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.dinosaur-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 #paragraph {
     text-align: left;
+    line-height: 30px;
+}
+.dinosaur-img {
+    position: relative;
+    transform: translateY(44px);
+}
+.email-section {
+    display: flex;
+}
+.good-news-text {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex: 1;
+    gap: 20px;
+}
+.good-news-email {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.small-button {
+    text-align: center;
 }
 .footer {
     background: black;
@@ -189,6 +230,11 @@ p {
 .div-footer-second {
     color: white;
     font-size: 12px;
+}
+@media only screen and (max-width: 1248px) {
+    .container {
+        width: 85%;
+    }
 }
 @media only screen and (max-width: 480px) {
     nav {
