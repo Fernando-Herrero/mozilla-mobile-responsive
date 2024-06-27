@@ -260,7 +260,7 @@ p {
     flex: 3;
     gap: 30px;
     color: white;
-    font-size: 12px;
+    font-size:10px;
 }
 .text-links {
     display: flex;
