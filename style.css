@@ -231,13 +231,47 @@ p {
 }
 .footer {
     background: black;
+    padding: 50px 0;
 }
 .div-footer {
     color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 30px 0;
 }
-.div-footer-second {
+.div-footer ul{
+    line-height: 28px;
+}
+.div-footer a {
+    color: white;
+}
+.footer-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-last-section {
+    display: flex;
+}
+.cookies-comments {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    gap: 30px;
     color: white;
     font-size: 12px;
+}
+.text-links {
+    display: flex;
+    gap: 10px;
+}
+.link {
+    text-decoration: underline;
+}
+.languages {
+    display: flex;
+    flex: 1;
 }
 @media only screen and (max-width: 1248px) {
     .container {
