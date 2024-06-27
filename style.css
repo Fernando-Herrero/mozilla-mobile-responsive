@@ -205,20 +205,28 @@ p {
 }
 .email-section {
     display: flex;
+    padding-bottom: 50px;
 }
 .good-news-text {
     display: flex;
     flex-direction: column;
-    align-content: flex-start;
+    align-items: flex-start;
     flex: 1;
     gap: 20px;
+}
+.good-news-p {
+    text-align: left;
 }
 .good-news-email {
     display: flex;
     flex-direction: column;
     flex: 1;
+    gap: 20px;
 }
-.small-button {
+.input {
+    padding: 10px;
+}
+.small-text-button {
     text-align: center;
 }
 .footer {
