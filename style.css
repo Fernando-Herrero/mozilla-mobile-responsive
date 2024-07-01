@@ -93,6 +93,9 @@ a {
 	background-color: #0060df;
 	color: white;
 }
+.hamb-menu {
+	display: none;
+}
 .text {
 	display: flex;
 	flex-direction: column;
@@ -329,6 +332,7 @@ p {
 		width: 85%;
 	}
 }
+
 @media only screen and (max-width:940px) {
 	.container {
 		width: 90%;
@@ -436,10 +440,31 @@ p {
 	}
 }
 @media only screen and (max-width: 480px) {
+	.nav {
+		justify-content: space-between;
+	}
 	nav ul {
 		display: none;
 	}
 	nav div button {
 		display: none;
+	}
+	.hamb-menu {
+		display: inherit;
+	}
+	.text {
+		padding: 30px 0;
+	}
+	#subtitle {
+		padding: 0;
+	}
+	.div-linear-gradient {
+		padding: 5px 10px;
+	}
+	.img-tab-mob {
+		height: 180px;
+	}
+	.div-footer {
+		flex-direction: column;
 	}
 }
