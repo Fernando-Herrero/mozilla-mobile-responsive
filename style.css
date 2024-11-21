@@ -370,6 +370,9 @@ p {
 	.text-links {
 		flex-wrap: wrap;
 	}
+	#subtitle {
+		padding: 0;
+	}
 }
 @media only screen and (max-width: 730px) {
 	.nav-img-li {
@@ -406,6 +409,7 @@ p {
 	#image {
 		text-align: center;
 	}
+
 	#button-div {
 		text-align: center;
 	}
@@ -454,9 +458,6 @@ p {
 	}
 	.text {
 		padding: 30px 0;
-	}
-	#subtitle {
-		padding: 0;
 	}
 	.div-linear-gradient {
 		padding: 5px 10px;
